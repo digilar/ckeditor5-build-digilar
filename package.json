@@ -1,7 +1,7 @@
 {
-  "name": "@ckeditor/ckeditor5-build-classic",
-  "version": "12.1.0",
-  "description": "The classic editor build of CKEditor 5 – the best browser-based rich text editor.",
+  "name": "@digilar/ckeditor5-build-digilar",
+  "version": "0.1",
+  "description": "Custom build for Digilar.",
   "keywords": [
     "ckeditor5-build",
     "ckeditor",
