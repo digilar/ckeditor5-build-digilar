@@ -1,7 +1,7 @@
 {
   "name": "@digilar/ckeditor5-build-digilar",
-  "version": "0.1",
   "description": "Custom build for Digilar.",
+  "version": "1.0.0",
   "keywords": [
     "ckeditor5-build",
     "ckeditor",
@@ -24,6 +24,10 @@
   "files": [
     "build"
   ],
+  "bugs": {
+    "url": "https://github.com/digilar/ckeditor5-build-digilar/issues"
+  },
+  "homepage": "https://github.com/digilar/ckeditor5-build-digilar#readme",
   "devDependencies": {
     "@ckeditor/ckeditor5-basic-styles": "^11.1.0",
     "@ckeditor/ckeditor5-block-quote": "^11.0.1",
