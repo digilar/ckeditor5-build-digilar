@@ -11,6 +11,7 @@ import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold';
 import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic';
 import Heading from '@ckeditor/ckeditor5-heading/src/heading';
 import List from '@ckeditor/ckeditor5-list/src/list';
+import Link from '@ckeditor/ckeditor5-link/src/link';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import Table from '@ckeditor/ckeditor5-table/src/table';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
@@ -28,10 +29,12 @@ ClassicEditor.builtinPlugins = [
 	Bold,
 	Italic,
 	Heading,
-	List,
+  List,
+  Link,
 	Paragraph,
 	Table,
   TableToolbar,
+  Link,
   Underline,
   Strikethrough,
   Code,
@@ -50,7 +53,8 @@ ClassicEditor.defaultConfig = {
       'underline',
       'strikethrough',
 			'bulletedList',
-			'numberedList',
+      'numberedList',
+      'link',
       'insertTable',
       'code',
       'subscript',
