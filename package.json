@@ -1,7 +1,7 @@
 {
   "name": "@digilar/ckeditor5-build-digilar",
   "description": "Custom build for Digilar.",
-  "version": "2.0.0-beta",
+  "version": "2.0.0",
   "keywords": [
     "ckeditor5-build",
     "ckeditor",
